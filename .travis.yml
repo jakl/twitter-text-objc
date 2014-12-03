@@ -3,3 +3,5 @@ xcode_project: testproject/TwitterText.xcodeproj
 xcode_scheme: TwitterTextTests
 before_install:
   - rake test:conformance:update test:conformance:convert_tests
+script:
+  - xctool test -scheme TwitterTextTests -project testproject/TwitterText.xcodeproj
