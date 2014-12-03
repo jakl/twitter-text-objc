@@ -1,3 +1,5 @@
-language: objc
+language: objective-c
 xcode_project: testproject/TwitterText.xcodeproj
 xcode_scheme: TwitterTextTests
+before_install:
+  - rake test:conformance:update test:conformance:convert_tests
