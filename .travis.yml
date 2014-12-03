@@ -1,0 +1,3 @@
+language: objc
+xcode_project: testproject/TwitterText.xcodeproj
+xcode_scheme: TwitterTextTests
